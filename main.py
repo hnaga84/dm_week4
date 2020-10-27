@@ -8,7 +8,7 @@ if __name__ == "__main__":
     model = regression.LinearRegression()
 
     model.fit(X, Y)
-    print(model.predict(X))
+    print(model.score(X, Y))
     
 
 
