@@ -8,7 +8,7 @@ if __name__ == "__main__":
     model = regression.LinearRegression()
 
     model.fit(X, Y)
-    print(model.theta)
+    print(model.predict(X))
     
 
 
